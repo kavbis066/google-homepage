@@ -35,6 +35,10 @@ li > a:hover {
     width: auto;
 }
 
+.main-search:hover{
+    box-shadow: 2px 2px 2px #d1d4db;
+}
+
 .google-search{
     display: flex;
     margin: 0 auto;
