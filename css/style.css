@@ -23,29 +23,59 @@ li > a:hover {
 }
 
 .main-search{
+    background: #fff;
     display: flex;
-    border: 1px solid lightgrey;
-    text-align: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
     margin: 0 auto;
-    width:450px;
-    border-radius: 50px;
-    
+    max-width: 482px;
+    width: auto;
+}
+
+.google-search{
+    display: flex;
+    margin: 0 auto;
+    flex: 1;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
 }
 
 #form-search{
     width: 400px;
     border-style: none;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
-.buttons{
+#speaker{
+    display: flex;
+    flex: 0 0 auto;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.buttons input[type="submit"]{
     text-align: center;
-    margin: 30px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    background-color: #eef0f1;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
 }
 
-input[type="submit"]{
+/*input[type="submit"]{
     border-style: none;
     height: auto;
-}
+}*/
 
 footer{
     background: #f2f2f2;
