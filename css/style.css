@@ -42,9 +42,21 @@ li > a:hover {
 .google-search{
     display: flex;
     margin: 0 auto;
-    flex: 1;
+    /*flex: 1;
     padding: 5px 8px 0 16px;
-    padding-left: 14px;
+    padding-left: 14px;*/
+}
+
+#search-icon{
+    margin: auto;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+#input-form{
+    margin: auto;
 }
 
 #form-search{
@@ -60,6 +72,7 @@ li > a:hover {
     flex: 0 0 auto;
     align-items: stretch;
     flex-direction: row;
+    margin: auto;
 }
 
 .buttons input[type="submit"]{
@@ -75,11 +88,6 @@ li > a:hover {
     min-width: 54px;
     cursor: pointer;
 }
-
-/*input[type="submit"]{
-    border-style: none;
-    height: auto;
-}*/
 
 footer{
     background: #f2f2f2;
@@ -113,7 +121,7 @@ footer ul{
     padding:1px;
 }
 
-.footer-right{
+#footer-right{
     float:right;
     margin-right: 15px;
 }
